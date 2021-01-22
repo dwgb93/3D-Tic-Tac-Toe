@@ -12,6 +12,7 @@
 #include <string>
 #include "TTTBoard3.h"
 #include "player.h"
+#include <iostream>
 //include two other header files containing information about board and players
 
 // Almost identical to 2D play a game. Prompt player for moves, check to see if they are a valid move.
@@ -118,7 +119,7 @@ bool playAGame(player *P[], int size, bool twoPlayer, bool compFirst)
 
 
 
-void main()
+int main()
 {
 	//Variables for gameplay
 	//Name of two players
@@ -220,4 +221,6 @@ void main()
 	} while (keepPlaying == true);
 	//Keeps looping while they want to play again.
 	//Because of where the loop starts, they have to specify what type of game again
+	//
+return 0;
 }

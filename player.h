@@ -5,7 +5,6 @@
 #define PLAYER_H_
 //Need to include the header for TTT so I can see which moves are open
 #include "TTTBoard3.h"
-#include <iostream>
 #include <string>
 
 
@@ -48,9 +47,9 @@ class computer : public player
 		//Nada
 	public:
 		//Constructor doesn't do much
-		computer::computer(std::string nameIn);
+		computer(std::string nameIn);
 		//Neither does destructor
-		computer::~computer();
+		~computer();
 		//void decideMove(int size, int &X, int &Y, int &Z, int XLast, int YLast, int ZLast, TTTBoard3 *ttt);
 		// I thought about including this, but it was so much easier to just have a classess function
 		//It goes through the hierarchy of moves to win
