@@ -10,3 +10,5 @@ Unlike 2D tic-tac-toe, where the 2nd player can force a tie, in 3D tic-tac-toe t
 Check out player.cpp for details.
 
 I was also working on optimal 4x4x4 and 5x5x5 play. It's implemented in the code, and you can still challenge the computer, but the play is sub-optimal. 
+
+Edit: I'll include the makefile after I figure out how to do that.
